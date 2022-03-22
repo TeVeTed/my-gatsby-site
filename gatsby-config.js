@@ -4,7 +4,6 @@ module.exports = {
 		siteUrl: `https://www.yourdomain.tld`
 	},
 	plugins: [
-		'gatsby-plugin-mdx',
 		'gatsby-plugin-image',
 		'gatsby-plugin-sharp',
 		{
@@ -13,6 +12,7 @@ module.exports = {
 				name: 'blog',
 				path: `${__dirname}/blog`
 			}
-		}
+		},
+		'gatsby-plugin-mdx'
 	]
 };
